@@ -47,7 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Encryption\HMAC_SHA1.cs" />
     <Compile Include="Encryption\pbkdf2.cs" />
+    <Compile Include="Encryption\pbkdf2Data.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
